@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  zabbix:
+    image: zabbix/zabbix-appliance:alpine-4.0-latest
+    restart: always
+    ports:
+      4080:80
+      10051:10051
