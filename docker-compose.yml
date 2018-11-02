@@ -5,5 +5,5 @@ services:
     image: zabbix/zabbix-appliance:alpine-4.0-latest
     restart: always
     ports:
-      4080:80
-      10051:10051
+      - "4080:80"
+      - "10051:10051"
