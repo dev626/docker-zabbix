@@ -5,3 +5,6 @@
 
 # The Zabbix appliance logs is available through Docker's container log:
 # $ docker logs docker-zabbix_zabbix_1
+
+# default user: Admin
+# default password: zabbix
